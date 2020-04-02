@@ -25,11 +25,11 @@ class RestoController extends AbstractController
         return $this->render('resto/home.html.twig');
     }
       /**
-     * @Route("/new", name="")
+     * @Route("/resto/12", name="resto_show")
      */
     public function show()
     {
-        return $this->render('resto/new.html.twig');
+        return $this->render('resto/show.html.twig');
     }
 
 }
