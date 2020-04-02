@@ -24,4 +24,8 @@ class RestoController extends AbstractController
     {
         return $this->render('resto/home.html.twig');
     }
+      /**
+     * @Route("/new", name="")
+     */
+    
 }
