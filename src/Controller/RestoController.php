@@ -27,5 +27,9 @@ class RestoController extends AbstractController
       /**
      * @Route("/new", name="")
      */
-    
+    public function show()
+    {
+        return $this->render('resto/new.html.twig');
+    }
+
 }
